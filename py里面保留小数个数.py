@@ -1,0 +1,9 @@
+msg=3.1415926
+#1
+print(f'{msg:.3f}')#只有在输出的引号里能这样写
+#2
+msg0=round(msg,3)
+print(msg0)
+#3
+msg1=format(msg,'.3f')
+print(msg1)
